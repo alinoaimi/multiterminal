@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net10.0": {
+      "VtNetCore": {
+        "type": "Direct",
+        "requested": "[1.0.30, )",
+        "resolved": "1.0.30",
+        "contentHash": "/tRACpRcQ4ndQgkuA+sJrDdr5bqCB9KqAZ6ftv9PuRKdWjpQfZNtk3oyv58OzV2D2dh6fwNKUjW7Vqi4+TXlnQ=="
+      }
+    },
+    "net10.0/win-x64": {}
+  }
+}

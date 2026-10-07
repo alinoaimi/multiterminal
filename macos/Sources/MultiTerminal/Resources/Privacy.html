@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MultiTerminal Privacy</title>
+<style>:root{color-scheme:light dark;font:16px/1.7 -apple-system,BlinkMacSystemFont,sans-serif}body{max-width:720px;margin:56px auto;padding:0 24px}h1,h2{line-height:1.25}</style>
+<h1>MultiTerminal Privacy</h1>
+<h2>Local workspace data</h2>
+<p>Workspace names, layouts, folders, file paths, browser URLs, and themes are saved on your Mac in <code>~/Library/Application Support/MultiTerminal Source/workspaces.json</code>. Treat that file and recovery backups as private. Terminal output is not saved by the app, but your shell and commands may write their own history or logs.</p>
+<h2>Browser and preview data</h2>
+<p>Browser panes use WebKit and store cookies, caches, and other website data locally in a separate profile for each workspace. Closing a workspace retains this data; deleting it requests removal. File previews read files you select and use temporary web storage.</p>
+<h2>Network access</h2>
+<p>This source build has no usage reporting or automatic update service. Browser panes contact sites you open, and commands you run may contact external services. Those services receive ordinary connection information and have their own privacy policies.</p>
+<p><a href="Help.html">MultiTerminal Help</a></p>
+</html>
